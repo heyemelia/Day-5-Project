@@ -1,0 +1,111 @@
+body {
+    background-image: url("/img/catprint.jpg");
+    background-size:cover;
+    background-color: #ffd5ee;
+   }
+  
+  header {
+      font-family:'Courier New', Courier, monospace;
+      background-color: pink;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      border-style: solid;
+      border-color: palevioletred;
+      text-shadow: 2px 2px 8px palevioletred;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 2;
+      padding: 2;
+      background-color: rgb(193, 176, 233);
+      border-style: solid;
+      border-color: palevioletred;
+  }
+  
+  li a {
+      text-decoration: none;
+      text-align: center;
+      display: block;
+  }
+  
+  
+    /* link color change */
+    
+  a:link {
+      color: lightgreen;
+      background-color: transparent;
+      text-decoration: none;
+    }
+  
+    a:visited {
+      color: rgb(255, 136, 0);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: cornflowerblue;
+      background-color: white;
+      text-decoration: underline;
+    }
+    a:active {
+      color: purple;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    /* end of link color change */
+  
+  section {
+      margin: 20px;
+      padding: 20px;
+      height: 200px;
+      width: 800px;
+      float: left;
+      clear: left;
+      background-color: lightgreen;
+      border-style: solid;
+      border-color: palevioletred;
+      box-shadow: 10px 10px 5px grey;     
+     
+  }
+  article {
+      margin:20px;
+      padding: 20px;
+      height: 200px;
+      width: 800px;
+      float: left;
+      clear: left;
+      background-color: pink;
+      border-style: solid;
+      border-color: palevioletred;
+      box-shadow: 10px 10px 5px grey;     
+     
+  }
+  aside {
+      width: 32%;
+      height: 10%;
+      padding: 0em; 
+      margin-top: -540px;                              
+      margin-left: 15px;
+      margin-bottom: 50px;
+      font-style: italic;
+      float: right;
+      clear: left;
+      background-color:plum;
+      border-style: dotted;
+      border-color: palevioletred; 
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);       
+    }
+  
+    #footer {
+        background-color: powderblue;
+        text-align: center;
+        clear: both;
+        position: relative;
+        border-style: solid;
+      border-color: palevioletred; 
+  
+      }
+  
